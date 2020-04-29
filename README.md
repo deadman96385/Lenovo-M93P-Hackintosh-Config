@@ -1,6 +1,6 @@
 # Lenovo-M93P Tiny 10.15 Hackintosh
 
-You will need to replace the wifi/bt chip with some that is compatible. Personally I have done it with the Broadcom BCM4352 Azurewave AW-CE123H.
+You will need to replace the wifi/bt chip with something that is compatible. Personally I have done it with the Broadcom BCM4352 Azurewave AW-CE123H.
 
 ## Hardware
 * CPU - I5-4570T - 4th Gen
@@ -15,11 +15,12 @@ You will need to replace the wifi/bt chip with some that is compatible. Personal
 Used the [Vanilla guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) and the [Internet Recovery install method](https://internet-install.gitbook.io/macos-internet-install/)
 
 ## Config.plist (Removed some entries to protect my PC)
-This is based on [Mingcheng's M93P guide](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) with some minor changes like a generated SMBIOS and a new theme.
+This is based on [Mingcheng's M93P guide](https://github.com/mingcheng/lenovo-thinkcentre-m93p-hackintosh) with some minor changes like a generated SMBIOS and minor edits.
 
 * Requires Serial Number (ex. DFOWQLSGH8K)
 * Requires Board-ID (ex. Mac-D859C5498DA9EE9D)
 * Requires MLB (ex. DFOWQLSGH8K)
+* Requires SmUUID (ex. 0605EA48-0000-4F6C-9C5A-76FE35C17C81)
 
 ## Kext Explanation
 * AppleALC - Audio driver to power the Mic/Headphone jack
